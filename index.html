@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<title>
+	
+	</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 	crossorigin="anonymous">
+	<body>
+		<style type="text/css">
+			.navbar-inverse{background: #2c3e50;}
+			.jumbotron{background-color: #ecf0f1;}
+			.navbar-inverse .navbar-brand{color:white;font-size:3em;margin:20px 150px;}
+			.navbar-inverse .navbar-nav>li>a {color:white;font-size:2em;}
+			p#language{text-align:right;font-size:1em}
+		</style>		
+<!-- this is the navigation bar -->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			  <p id="language">
+				  <a  style="color:white" href="#"> English | </a><a style="color:white" href="#">中文</a>
+			  </p>
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#researchPage" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html"><strong>Tsunada's Lab</strong></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="researchPage">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="research.html">Research </a></li>
+				<li><a href="PIinfo.html">PI information</a></li>
+				<li><a href="funding.html">Funding Support</a></li>
+				<li><a href="team.html">Our Team</a></li>
+				<li><a href="career.html">Career</a></li>
+				<li><a href="publication.html">Publication</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+
+
+		<style type="text/css">
+			#welcome{
+				border-left:15px solid grey;
+				padding-left:30px;
+				margin:2em;
+				color:black;
+				font-family: cursive;
+				line-height: 2.5;
+			}
+			.image {
+			  width: 100%;
+			  height:500px;
+			  background-size: cover;
+			  background-position: center;
+			}
+			.imagewelcome{background-image: url("https://images.unsplash.com/photo-1567731359739-ac5cd0dc2cd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+			}
+
+			#labnews{
+				border: thick double #32a1ce;
+				font-size:2rem;
+			}
+
+		</style>
+<!-- this jumbotron is for the marmoset monkey eating a banana -->
+<div class="jumbotron image imagewelcome"></div>
+<!-- This jumbotron is for the welcome message from the lab -->
+<div class="jumbotron">
+  <div class="container">
+	<div id="welcome">
+		<h1><strong>Welcome to Tsunada's Lab!</strong></h1>
+		<p>Tsunada Lab aims to understand:</p>
+		<p>1) how primates flexibly control and adapt their vocal behaviors during social communication and</p>
+		<p>2) how the brain circuitry performs the computations that mediate this ability. </p>
+		<p>We address these questions by applying neurophysiological techniques to freely-communicating marmoset monkeys. We hope our studies for vocal communication in normal subjects will contribute to a better understanding of how and why many patients with mental or developmental disorders have problems in vocal communication.</p>
+	 </div>
+	  <a class="btn btn-primary btn-lg" href="research.html" role="button"><strong>Learn more...</strong></a>
+  </div>
+</div>
+<!-- This container contains top news in the lab -->
+<div class="container" id="labnews">
+	<h1>Lab News</h1>
+
+	<p>2020.4 Joji’s paper with Dr. Eliades@UPenn was published in the Journal of Neuroscience!<a href="news/04a2020.html">Read more...</a></p>
+	<p>2020.4 Yuyan joined the lab!<a href="news/04b2020.html"> Read more...</a></p>
+	<p>2020.3 Joji received the Brain Science Foundation Research Grant (Japan)<a href="news/03a2020.html"> Read more...</a></p>
+	<p>2020.3 Tsunada Lab at CIBR was launched.<a href="news/03b2020.html">Read more...</a></p>
+</div>
+
+
+<p>
+	made on 2020
+</p>	
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
